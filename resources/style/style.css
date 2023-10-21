@@ -8,9 +8,24 @@ header {
     width: 100%;
     margin: 0%;
 }
-.nav-container  {
-    background-color: #ebded4;
-    padding: 30px;
+
+#eri-tellimus {
+    width: 50%;
+    border: #423224;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 2px solid #423224;
+}
+
+section a {
+    color: black;
+}
+
+section a:hover {
+    color: black;
+    text-decoration: none;
 }
 
 #footer-up {
@@ -27,4 +42,16 @@ header {
 
 #footer-bottom .p{
     color: #FFFFFF;
+}
+
+.navigation-text {
+    color:#623737;
+}
+
+.navigation-text:hover {
+    color:#623737;
+}
+
+#big-space-row {
+    padding-bottom: 9em;
 }
