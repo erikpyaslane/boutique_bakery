@@ -12,3 +12,19 @@ header {
     background-color: #ebded4;
     padding: 30px;
 }
+
+#footer-up {
+    background-color: #EBDED4;
+}
+
+#footer-up a {
+    color: #423224
+}
+
+#footer-bottom {
+    background-color: #423224;
+}
+
+#footer-bottom .p{
+    color: #FFFFFF;
+}
