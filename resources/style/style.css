@@ -1,0 +1,14 @@
+body {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+header {
+    background-color: #ebded4;
+    width: 100%;
+    margin: 0%;
+}
+.nav-container  {
+    background-color: #ebded4;
+    padding: 30px;
+}
