@@ -1,4 +1,4 @@
-# urban-octo-waffle
+# Boutiqe_Bakery
 Kursuse "Veebilehtede loomine edasijõudnutele" lõpuprojekt
 
 Boutiqe Bakery projekt
