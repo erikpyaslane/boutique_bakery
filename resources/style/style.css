@@ -55,3 +55,40 @@ section a:hover {
 #big-space-row {
     padding-bottom: 9em;
 }
+  .carousel .carousel-item {
+    height: 400px;
+  }
+  
+  .carousel-item img {
+      max-width: 100%;
+      object-fit: fill;
+      min-height: 400px;
+      object-fit: cover; 
+      object-position: center;
+  }
+h1{
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Arial', monospace;
+    
+  }
+  .social-media-img{
+    max-width: 100%;
+    max-height: 60%;
+  }
+  .social-media-tag:hover{
+    color: #EBDED4;
+  }
+.card-img-top{
+    height:300px;
+    object-fit: cover;
+}
+.card-img-bottom{
+    height:500px;
+    object-fit: cover;
+}
+.card-img-last{
+    width:100%;
+    height:150px;
+    object-fit: cover;
+}
