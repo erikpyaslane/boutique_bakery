@@ -92,3 +92,7 @@ h1{
     height:150px;
     object-fit: cover;
 }
+#picBorder{
+    border-color: #EBDED4;
+    
+}
