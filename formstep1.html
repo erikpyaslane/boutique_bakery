@@ -75,21 +75,39 @@
             </div>
 
             <div class="row ml-2 mr-2 mt-4 mb-5">
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <!-- https://cafelyon.ee/tellimine/tortide-tellimine/uus-klassikaline-kiievi-tort-lyoni-ukraina-pagarilt/ -->
                     <img style="width: 100%; border-radius: 50%;" src="resources/images/kook.png">
                 </div>
-                <div class="col-md-6 flex-column">
-                    <div class="row ml-1">
-                        <p class="font-weight-bold ">Koogi soovitud diameeter</p>
+                <div class="col-md-7 flex-column">
+                    <div class="row ml-1 align-items-center text-center">
+                        <h5 class="font-weight-bold mb-1 pr-1 mr-2">Koogi soovitud diameeter</h5>
+                        <button id="plus-minus" class="mr-1">+</button>
+                        <p class="mb-1 mr-1">40</p>
+                        <button id="plus-minus" class="mr-1 text-center">-</button>
+                        <p class="mb-1">cm</p>
+                    </div>        
+                    <div class="row mt-4 ml-1 mr-1">
+                        <h5 class="font-weight-bold">Maitseelistused</h5>
+                        <p>Kirjelda kuidas tort maitsema peaks. Sisesta märksona ja vajuta 'ENTER'</p>
+                        <div class="row ml-1">
+                            <p class="pr-4 mb-0" style="color: gray; font-size: 16;">maasikas..</p>
+                            <textarea style="resize: none; background-color: white; border-color: black; text-align: center; padding: 0; overflow: auto;" rows="1" cols="10">Lisa maitse</textarea>
+                        </div>
                     </div>
-                    <div class="row ml-1">
-                        <p>Maitseelistused</p>
-                        <p>Kirjelda kuidas tort maitsema peaks. Sisesta marksona ja vajuta 'ENTER'</p>
+                    <div class="row justify-content-center mt-1">
+                        <button style="border-radius: 10px;">šokolaad</button>
                     </div>
-                    <div class="row ml-1">
-                        <p>Allergeenid</p>
-                        <p>Milliseid toiduaineid voi koostisosi peaksime valtima</p>
+                    <div class="col mt-3 ml-1 pl-0 mr-1">
+                        <h5 class="font-weight-bold ml-0 pl-0">Allergeenid</h5>
+                        <p class="ml-0 pl-0">Milliseid toiduaineid voi koostisosi peaksime vältima?</p>
+                        <div class="row ml-1">
+                            <p class="pr-4 mb-0" style="color: gray; font-size: 16;">pähklid..</p>
+                            <textarea style="resize: none; background-color: white; border-color: black; text-align: center; padding: 0; overflow: auto;" rows="1" cols="10">Lisa maitse</textarea>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mt-1">
+                        <button style="border-radius: 10px;">gluteen</button>
                     </div>
                 </div>
                 
