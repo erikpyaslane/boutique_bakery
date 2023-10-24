@@ -20,7 +20,7 @@
                 <div class="col-md-1">
                     <a class="text-left"><img src="resources/logo/logo.png" class="rounded mx-auto d-block" alt="instagram" width="35px" height="auto""></a>
                 </div>
-                <div class="col-md-8 justify-content-center">
+                <div class="col-md-8 justify-content-end">
                     <ul class="nav justify-content-center flex-row align-items-end">
                         <li class="nav-item mr-4 ml-4"><a href="avaleht.html" class="navigation-text">Avaleht</a></li>
                         <li class="nav-item mr-4 ml-4"><a href="formstep_start.html" class="navigation-text">Eritellimus</a></li>
@@ -35,29 +35,91 @@
     </header>
 
     <main>
-        <section>
-            <div>
-                Eritellimus 1. samm
+        <section id="eri-tellimus" class="d-flex flex-column">
+            <div class="row mt-2 ml-2 mr-2 pl-0 pr-0 justify-content-center align-items-center">
+                <div class="col-sm-4 ml-0 mr-0">
+                    <p class="m-0">1. Detailid</p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="m-0">2. Inspiratsiooni allikad</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="m-0">3. Kontaktinfo ja maksedetailid</p>
+                </div>
             </div>
-            <div>
-                <a href="formstep2.html">Jargmine</a>
+
+            <div class="row d-flex mt-0 ml-2 mr-2">
+                <div class="col-md-4 w-100 p-0">
+                    <svg width="100%" height="8px">
+                        <rect width="100%" height="8px" rx="3" ry="3" style="fill:rgb(0,0,0);" />
+                      </svg>
+                </div>
+                <div class="col-md-4 w-100 m-0 p-0">
+                    <svg width="100%" height="8px">
+                        <rect width="100%" height="8px" style="fill:rgb(255,255,255); stroke:black;stroke-width:1px" />
+                      </svg>
+                </div>
+                <div class="col-md-4 w-100 m-0 p-0">
+                    <svg width="100%" height="8px">
+                        <rect width="100%" height="8px" style="fill:rgb(255,255,255); stroke:black; stroke-width:1px" />
+                      </svg>
+                </div>
+            </div>
+
+            <div class="row mt-0 mb-4 ml-2 mr-2 justify-content-center align-items-center">
+                <div class="col-md-4 text-center">
+                    <h3 class="font-weight-normal">1. Detailid</h3>
+                </div>
+            </div>
+
+            <div class="row ml-2 mr-2 mt-4 mb-5">
+                <div class="col-md-6">
+                    <!-- https://cafelyon.ee/tellimine/tortide-tellimine/uus-klassikaline-kiievi-tort-lyoni-ukraina-pagarilt/ -->
+                    <img style="width: 100%; border-radius: 50%;" src="resources/images/kook.png">
+                </div>
+                <div class="col-md-6 flex-column">
+                    <div class="row ml-1">
+                        <p class="font-weight-bold">Koogi soovitud diameeter</p>
+                    </div>
+                    <div class="row ml-1">
+                        <p>Maitseelistused</p>
+                        <p>Kirjelda kuidas tort maitsema peaks. Sisesta marksona ja vajuta 'ENTER'</p>
+                    </div>
+                    <div class="row ml-1">
+                        <p>Allergeenid</p>
+                        <p>Milliseid toiduaineid voi koostisosi peaksime valtima</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row mt-5 mb-1 mr-2 ml-2 justify-content-between ">
+                <div class="col-md-3 text-left ml-2 mr-2">
+                    <a href="avaleht.html"><h4 class="font-weight-normal">Katkesta</h4></a>
+                </div>
+                <div class="col-md-3 text-center ml-2 mr-2">
+                    <a href="avaleht.html"><h4 class="font-weight-normal">Eelmine</h4></a>
+                </div>
+                <div class="col-md-3 text-right ml-2 mr-2">
+                    <a class="text-end" href="formstep1.html"><h4 class="font-weight-normal">Järgmine</h4></a>
+                </div>
             </div>
         </section>
         
     </main>
 
     
-    <footer class="d-flex flex-wrap fixed-bottom justify-content-between align-items-end py-3 mb-n4">
+    <footer class="d-flex flex-wrap justify-content-between align-items-end">
         <div id = "footer-up" class="container-fluid flex-row">
-            <div class="row  mt-5">
+            <div class="row  mt-3 align-items-end">
                 <ul class="nav col-md-4 justify-content-center flex-column align-items-center">
-                    <li class="nav-item"><p><img src="resources/icons/map_marker.png" class="rounded mx-auto d-block" alt="instagram" width="35px" height="auto"></p></li>
+                    <li class="nav-item justify-content-center"><p class="mb-1"><img src="resources/icons/map_marker.png" class="rounded mx-auto d-block" alt="instagram" width="35px" height="auto"></p></li>
                 </ul>
                 <ul class="nav col-md-4 justify-content-center align-items-center flex-column">
-                    <li class="nav-item"><p><img src="resources/icons/epost.png" class="rounded mx-auto d-block" alt="instagram" width="35px" height="auto"></p></li>
+                    <li class="nav-item"><p class="mb-1"><img src="resources/icons/epost.png" class="rounded mx-auto d-block" alt="instagram" width="35px" height="auto"></p></li>
                 </ul>
                 <ul class="nav col-md-4 justify-content-center">
-                    <li class="nav-item"><p><img src="resources/icons/telefon.png" class="rounded mx-auto d-block" alt="instagram" width="35px" height="auto"></p></li>
+                    <li class="nav-item"><p class="mb-1"><img src="resources/icons/telefon.png" class="rounded mx-auto d-block" alt="instagram" width="35px" height="auto"></p></li>
                 </ul>
             </div>
             <div class="row">
@@ -78,13 +140,13 @@
             </ul>
             </div>
         </div>
-        <div id = "footer-bottom" class="container-fluid align-items-center pt-4 pb-3 mt-0 ml-0 mr-0">
+        <div id = "footer-bottom" class="container-fluid align-items-center pt-3 pb-1 mt-0 ml-0 mr-0">
             <div class="row justify-content-center align-items-end text-center">
                 <p class="col-md-4 mb-0 text-white align-items-center"> &copy; 2023 Boutique Bakery®, Site by EP and AB</p>
             </div>
             
         </div>
-    </footer>    
+    </footer>     
 
 </body>
 
