@@ -14,6 +14,7 @@
 
 </head>
 <body>
+    <!-- Navigatsiooni riba-->
     <header class="mt-0">
         <div class="container-fluid">
             <div class="row d-flex p-3 justify-content-between align-items-center">
@@ -35,15 +36,84 @@
     </header>
 
     <main>
-        <section id="eri-tellimus">
-            <div>
-                Eritellimus 2. samm
+        <section id="eri-tellimus" class="d-flex flex-column">
+            <!-- Sammude pealkirjad -->
+            <div class="row mt-4 ml-2 mr-2 pl-0 pr-0 justify-content-center align-items-center">
+                <div class="col-sm-4 ml-0 mr-0">
+                    <p class="m-0">1. Detailid</p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="m-0">2. Inspiratsiooni allikad</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="m-0">3. Kontaktinfo ja maksedetailid</p>
+                </div>
+            </div>
+            <!-- "Progress" joon-->
+            <div class="row d-flex mt-0 ml-4 mr-4">
+                <div class="col-md-8 w-100 p-0">
+                    <svg width="100%" height="8px">
+                        <rect width="100%" height="8px" rx="3" ry="3" style="fill:rgb(0,0,0);" />
+                      </svg>
+                </div>
+                
+                <div class="col-md-4 w-100 m-0 p-0">
+                    <svg width="100%" height="8px">
+                        <rect width="100%" height="8px" style="fill:rgb(255,255,255); stroke:black; stroke-width:1px" />
+                      </svg>
+                </div>
+            </div>
+
+            <!-- Lehe pealkiri-->
+            <div class="row mt-3 mb-4 ml-2 mr-2 justify-content-center align-items-center">
+                <div class="col-md-12 text-center">
+                    <h3 class="font-weight-normal">2. Inspiratsiooni allikad</h3>
+                </div>
+            </div>
+
+            <!-- Tekst-->
+            <div class="row m-4">
+                <h5 class="font-weight-normal"> Jaga meile inspiratsiooniallikaid tordi disaini jaoks, vajadusel lisa illustreeriv pilt.</h5>
+            </div>
+
+            <!-- "Kirjeldus TextArea"-->
+            <div class="row mt-4 ml-2 mr-2 mt-0">
+                <div class="col-md-12 mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label font-weight-bold">Kirjeldus</label>
+                    <textarea style="resize: none; " class="form-control" rows="3">Kirjelda Inspiratsiooniallikat...</textarea>
+                </div>
+            </div>
+
+            <!-- Upload file-->
+            <div class="row ml-2 mr-2 mt-2 justify-content-center">
+                <div class="col-md-12">
+                    <label class="font-weight-bold">(Valikuline) Lisa pilt</label>
+                </div>
+                <div class="col-md-4 pt-3 pb-3 text-center border">
+                    <!-- https://iconduck.com/icons/267564/file-upload -->
+                    <p class="pl-5 pr-5 mb-0 align-self-center">
+                        <img src="resources/icons/file-upload.svg" style="width: 35px; height: auto;">
+                    </p>
+                    
+                </div>
+            </div>
+            <!-- Lehtedevahelise liikumise nupud -->
+            <div class="row mt-5 mb-1 mr-2 ml-2 justify-content-between ">
+                <div class="col-md-3 text-left ml-2 mr-2">
+                    <a href="avaleht.html"><h4 class="font-weight-normal">Katkesta</h4></a>
+                </div>
+                <div class="col-md-3 text-center ml-2 mr-2">
+                    <a href="formstep1.html"><h4 class="font-weight-normal">Eelmine</h4></a>
+                </div>
+                <div class="col-md-3 text-right ml-2 mr-2">
+                    <a class="text-end" href="formstep2.html"><h4 class="font-weight-normal">Järgmine</h4></a>
+                </div>
             </div>
         </section>
         
     </main>
 
-    
+    <!-- Footer -->
     <footer class="d-flex flex-wrap justify-content-between align-items-end">
         <div id = "footer-up" class="container-fluid flex-row">
             <div class="row  mt-3 align-items-end">
