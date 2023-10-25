@@ -24,6 +24,11 @@ header {
     border: 2px solid #423224;
 }
 
+section {
+    width: 100%;
+    margin: auto;
+}
+
 section a {
     color: black;
 }
@@ -123,3 +128,43 @@ h1{
     color:#EBDED4;
     text-decoration: underline;
 }
+
+@media only screen and (min-width: 2401px) {
+
+    #form-start-space {
+        min-height: 77vh;
+    }
+    #form-1-space {
+        min-height: 77vh;
+    }
+    #form-2-space {
+        min-height: 77vh;
+    }
+    section {
+        width: 2400px;
+        margin: auto;
+    }
+    
+
+}
+
+@media only screen and (min-height: 1300px) {
+
+    #form-start-space {
+        min-height: 77vh;
+    }
+    #form-1-space {
+        min-height: 77vh;
+    }
+    #form-2-space {
+        min-height: 77vh;
+    }
+    section {
+        width: 2400px;
+        margin: auto;
+    }
+    
+
+}
+
+
